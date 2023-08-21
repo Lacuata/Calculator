@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Calculator from './calculator/+page.svelte'
+</script>
+<body>
+    <Calculator />
+</body>
+
+<style>
+    body {
+    font-family: Arial;
+    background-color: rgb(0, 0, 0);
+}
+
+</style>
+
